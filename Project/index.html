@@ -1,0 +1,459 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+		  <title>Barguna Polytechnic Institute</title>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="css/bootstrap.min.css">
+          <link rel="stylesheet" href="css/animate.css">
+		  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+              <a href="img/logo.jpg" class="navbar-brand">
+                <!-- <img id="logo" src="img/logo.jpg" class="img-responsive visible-lg"> -->
+                <b>BPI</b>
+              </a>
+                <button id="hideBtn" class="navbar-toggle" data-target="#MainNavbar" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="MainNavbar">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a >Home</a></li> 
+                  <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> College Actives
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                       <li><a href="#" data-toggle="tab">Result Archive</a></li> 
+                       <li><a href="#" data-toggle="tab">Notice</a></li> 
+                       <li><a href="#" data-toggle="tab">Publication</a></li> 
+                    </ul>
+                </li>  
+                  <li><a href="about.html" target="_blank">About BPI</a></li> 
+                  <li><a href="gallery.html" target="_blank">Photo Gallery</a></li> 
+                  <li><a href="#" target="_blank">Teacher Info</a></li> 
+                   <li><a href="support.html" data-toggle="tab"> FAQ</a></li>
+
+               </ul>
+               <!--
+			   <form class="navbar-form navbar-right">
+                   <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                      <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                   </div>
+                   <button class="btn btn-default">Submit</button>
+               </form> 
+			   -->
+			   
+                  <!-- <a class="btn btn-primary"  href="login.html" id="signinbtn" target="_blank" >Sign In</a>       -->
+
+            </div>
+        </div>
+    </nav>
+	</header>
+  <!--Carousel Area Start Here--> 
+  <div class="container-fluid" id="slider">
+    <div class="row">
+      <div class="col-xs-12">
+         <div id="imgCarousel" class="carousel slide"  data-interval="5000"  data-ride="carousel">
+       <ol class="carousel-indicators">
+         <li data-target="#imgCarousel" data-slide-to="0" class="active"></li>
+         <li data-target="#imgCarousel" data-slide-to="1"></li>
+        
+        
+       </ol>
+       <div class="carousel-inner"> 
+         <div class="item active">
+           <img src="img/clg.jpg"  class="img-responsive">
+           <div class="carousel-caption">
+             <h1>College Campus</h1>
+            
+           </div>
+         </div>
+
+		     <!--   <div class="item">
+           <img src="img/clg3.jpg"  class="img-responsive">
+           <div class="carousel-caption">
+               <h1>College Campus</h1>
+             
+           </div>
+         </div>
+		 <div class="item">
+           <img src="img/clg2.jpg"  class="img-responsive">
+           <div class="carousel-caption">
+              <h1>College Campus</h1>
+            
+           </div>
+         </div>-->
+
+       </div>
+       <a href="#imgCarousel" class="carousel-control left" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left"></span>
+       </a>
+       <a href="#imgCarousel" class="carousel-control right" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right"></span>
+       </a>
+     </div>
+      </div>
+    </div>
+  </div>
+  <!--Service Area-->
+  <div class="well">
+    <div class="container-fluid">
+      <div class="page-header text-center">
+        <h1 class="text-uppercase text-primary">our College Department</h1>
+     </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="thumbnail">
+            <img src="img/computer.jpg" class="img-responsive img-circle">
+            <div class="caption text-center">
+              <h4>Computer Department</h4>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+              
+              <a href="#" class="btn btn-info" data-toggle="modal" data-target="#mymodal1">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="thumbnail">
+            <img src="img/s2.jpg" class="img-responsive img-circle">
+            <div class="caption text-center">
+              <h4 >Electronics Department</h4>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+              
+              <a href="#" class="btn btn-info" data-toggle="modal" data-target="#mymodal2">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="thumbnail">
+            <img src="img/s4.jpg" class="img-responsive img-circle">
+            <div class="caption text-center">
+              <h4 class="text-center">Environment Department</h4>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+              <a href="#" class="btn btn-info" data-toggle="modal" data-target="#mymodal3">View Details</a>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-md-3 col-sm-6">
+          <div class="thumbnail">
+            <img src="img/s3.jpg" class="img-responsive img-circle">
+            <div class="caption text-center">
+              <h4>Rac Department</h4>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+              
+              <a href="#" class="btn btn-info" data-toggle="modal" data-target="#mymodal4">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--End of Service Area-->
+   
+   <!--Modal Area-->
+   <div class="modal fade" id="mymodal1">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h4 class="modal-title">Computer Department</h4>
+         </div>
+         <div class="modal-body">
+           <p>Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.
+
+Principal areas of study within Computer Science include artificial intelligence, computer systems and networks, security, database systems, human computer interaction, vision and graphics, numerical analysis, programming languages, software engineering, bioinformatics and theory of computing.
+
+Although knowing how to program is essential to the study of computer science, it is only one element of the field. Computer scientists design and analyze algorithms to solve programs and study the performance of computer hardware and software. The problems that computer scientists encounter range from the abstract-- determining what problems can be solved with computers and the complexity of the algorithms that solve them – to the tangible – designing applications that perform well on handheld devices, that are easy to use, and that uphold security measures.
+
+Graduates of University of Maryland’s Computer Science Department are lifetime learners; they are able to adapt quickly with this challenging field.</p>
+         </div>
+         <div class="modal-footer">
+           <button class="btn btn-primary" data-dismiss="modal">Close</button>
+           <a href="#" class="btn btn-info">Contact Us</a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="modal fade" id="mymodal2">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h4 class="modal-title">Electronics Department</h4>
+         </div>
+         <div class="modal-body">
+           <p>Electronic engineering (also called electronics and communications engineering) is an electrical engineering discipline which utilizes nonlinear and active electrical components (such as semiconductor devices, especially transistors, diodes and integrated circuits) to design electronic circuits, devices, VLSI devices ...</p>
+         </div>
+         <div class="modal-footer">
+           <button class="btn btn-primary" data-dismiss="modal">Close</button>
+           <a href="#" class="btn btn-info">Contact Us</a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="modal fade" id="mymodal3">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h4 class="modal-title">Environment Department</h4>
+         </div>
+         <div class="modal-body">
+           <p>Department of Environment is a government department responsible for the protection of the environment in Bangladesh and is located in Dhaka, Bangladesh. The department is headed by a director general. It is under the Ministry of Environment and Forests.</p>
+         </div>
+         <div class="modal-footer">
+           <button class="btn btn-primary" data-dismiss="modal">Close</button>
+           <a href="#" class="btn btn-info">Contact Us</a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="modal fade" id="mymodal4">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h4 class="modal-title">Rac Department</h4>
+         </div>
+         <div class="modal-body">
+           <p>The refrigeration and air conditioning engineer is responsible for the design, installation, maintenance, and repair of both systems.
+
+           Their work involves domestic and commercial settings, as well as including the construction and   transportation sectors, for example in ships and trucks.
+
+           Finding solutions to issues involving climate and the environment are the biggest issues for engineers in the refrigeration and air conditioning industry.</p>
+         </div>
+         <div class="modal-footer">
+           <button class="btn btn-primary" data-dismiss="modal">Close</button>
+           <a href="#" class="btn btn-info">Contact Us</a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!--End Modal Area-->
+  </div><!--End Service Area Well-->
+<!--Gallery Area-->
+  <div class="container-fluid text-center">
+    <div class="page-header text-center">
+      <h1 class="text-uppercase">Academic gallery</h1>
+     
+    </div>
+
+  <div class="btn-group btn-group-lg">
+    <a href="#Teacher" class="btn btn-info" data-toggle="tab">Teacher</a>
+    <a href="#Developer" class="btn btn-warning" data-toggle="tab">Developer</a>
+    <a href="#Campus " class="btn btn-info" data-toggle="tab">Campus</a>
+  </div>
+
+  <div class="tab-content">
+     <div class="tab-pane fade active in" id="Teacher">
+       <div class="tab-header">
+         <h2>Teacher's Gallery</h2>
+       </div>
+       <div class="row-fluid">
+         <div class="col-md-3 col-sm-6">
+           <a href="img/nasir.jpg" class="thumbnail">
+             <img src="img/nasir.jpg">
+           </a>
+         </div>
+          <div class="col-md-3 col-sm-6">
+           <a href="img/anupom.jpg" class="thumbnail">
+             <img src="img/anupom.jpg">
+           </a>
+         </div>
+          <div class="col-md-3 col-sm-6">
+           <a href="img/saddam.jpg" class="thumbnail">
+             <img src="img/saddam.jpg">
+           </a>
+         </div>
+          <div class="col-md-3 col-sm-6">
+           <a href="img/hasan.jpg" class="thumbnail">
+             <img src="img/hasan.jpg">
+           </a>
+         </div>
+       </div>
+
+     </div><!--Tab pane-->
+     <div class="tab-pane fade" id="Developer">
+       <div class="tab-header">
+         <h2>Developer Gallery</h2>
+       </div>
+       <div class="row-fluid">
+         <div class="col-md-4 col-sm-6">
+           <a href="img/anaet.jpg" class="thumbnail">
+             <img src="img/anaet.jpg" width="959px" height="960px">
+           </a>
+         </div>
+          <div class="col-md-4 col-sm-6">
+           <a href="img/rifat.jpg" class="thumbnail">
+             <img src="img/rifat.jpg" >
+           </a>
+         </div>
+         
+          <div class="col-md-4 col-sm-6">
+           <a href="img/arif.jpg" class="thumbnail">
+             <img src="img/arif.jpg" >
+           </a>
+         </div>
+       </div>
+
+     </div><!--Tab pane-->
+     <div class="tab-pane fade" id="Campus">
+       <div class="tab-header">
+         <h2>Campus Gallery</h2>
+       </div>
+       <div class="row-fluid">
+         <div class="col-md-3 col-sm-6">
+           <a href="img/cam1.jpg" class="thumbnail">
+             <img src="img/cam1.jpg">
+           </a>
+         </div>
+          <div class="col-md-3 col-sm-6">
+           <a href="img/cam3.jpg" class="thumbnail">
+             <img src="img/cam3.jpg">
+           </a>
+         </div>
+          <div class="col-md-3 col-sm-6">
+           <a href="img/cam3.jpg" class="thumbnail">
+             <img src="img/cam3.jpg">
+           </a>
+         </div>
+          <div class="col-md-3 col-sm-6">
+           <a href="img/bpi4.jpg" class="thumbnail">
+             <img src="img/bpi4.jpg">
+           </a>
+         </div>
+       </div>
+
+     </div><!--Tab pane-->
+  </div>
+  </div><!--Gallery Container-->
+
+  <div class="well">
+    <div class="container-fluid">
+      <div class="page-header text-center">
+        <h1>FeedBack <small>check our Students feedback</small></h1>
+      </div>
+
+      <div class="row-fluid">
+        <div class="col-md-4">
+          <blockquote>
+            <p><q>Barguna polytechnic is one of the most best govt polytechnic.Proud to be a part of this college</q></p>
+            <footer>Md Anayet Hossain</footer>
+          </blockquote>
+        </div>
+         <div class="col-md-4">
+          <blockquote>
+            <p><q>I love this college coz there is no political issu.One of the best polytechnic of Bangladesh</q></p>
+            <footer>Md Rifat Hossain</footer>
+          </blockquote>
+        </div>
+         <div class="col-md-4">
+          <blockquote>
+            <p><q>I think barguna is a polytechnic which is the best peaceful polytechnic of Bangladesh</q></p>
+            <footer>Md Ariful Islam</footer>
+          </blockquote>
+        </div>
+      </div><!--row-->
+    </div><!--FeedBack Container-->
+
+  </div><!--End feedback Area-->
+  
+	 <!-- Contact Section -->
+	 <div class="well contact">
+    <div id="contact">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Contact Us</h2>
+                <hr>
+            </div>
+            <div class="space"></div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <address>
+                        <strong><span class=" glyphicon glyphicon-map-marker"></span>Address</strong><br>
+                        <br>
+					
+                        Barguna Sadar<br>
+                        Barguna,potkakhali<br>     
+                        Phone: 0448-63460
+                       
+                    </address>
+                </div>
+
+                <div class="col-md-9">
+                    <form autocomplete="off">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control borderhov" placeholder="Your Name"><br>
+                                <input type="text" class="form-control borderhov" placeholder="Phone No.">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control borderhov" placeholder="Email"><br>
+                                <input type="text" class="form-control borderhov" placeholder="Subject">
+                            </div>
+                        </div><br>
+                        <textarea class="form-control borderhov" rows="4" cols="10" placeholder="Message"></textarea><br>
+                        <div class="text-right">
+                            <a href="#" class="btn send-btn btn-danger">Send</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	
+	<!-- End of Contact Section-->
+ 
+   <footer>
+    <div class="container-fluid text-center">
+	<p>&copy;Copyright- All right reserved by <a href="#" class="text-danger">Barguna Polytechnic Institute</a></p>
+	<p class="text-right">Designed By <cite><a href="#" id="popOverbtn" class="text-primary" data-toggle="popover" title="MD Anayet Hossain Rajib" data-content="<img class='img-responsive' src='img/me.jpg'>" data-placement="top" data-html="true" data-trigger="hover">MD Anayet Hossain</a><cite></p>
+	</div>
+
+    </footer> 
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#hideBtn').click(function () {
+            $('#logo').hide();
+        });
+		
+		$('#Clickbtn').click(function(){
+		  $('#modalLogin').collapse('toggle');
+		});
+		$('#hidebtn').click(function(){
+		  $('#modalLogin').collapse('hide');
+		});
+		$('#closebtn').click(function(){
+		  $('#modalLogin').collapse('hide');
+		});
+		
+		$('#popOverbtn').popover();
+		
+		$('#Submitbtn').click(function(){
+        $('#myAlert').show('fade');
+        setTimeout(function(){
+        $('#myAlert').hide('fade');
+        },2000)
+       })
+      $('#linkClose').click(function(){
+      $('#myAlert').hide('fade');
+     });
+    });
+	
+</script>  
+</body>
+</html>
+
+  
+  
+ 

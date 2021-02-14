@@ -1,0 +1,47 @@
+/* --primary: #007bff;
+--secondary: #6c757d;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40; */
+#logo{
+	width: 50px;
+	height: 40px;
+	position: fixed;
+	left: 30px;
+	top:25px;
+}
+.item img{
+	width: 100%;
+}
+#slider{
+	margin-top: 55px;
+}
+.navbar{
+	
+	padding : 20px 0px;
+}
+
+#signinbtn{
+	position : fixed;
+	right:40px;
+	top: 40px;
+	float:right;
+}
+.navbar-right{
+	position:absolute;
+	right : 200px;
+	top:23px;
+}
+
+@font-face{
+	font-family : Linear;
+	src : url(fonts/LANENAR_-webfont.ttf);
+}
+@font-face{
+	font-family : fontawesome;
+	src : url(fonts/fontawesome-webfont.ttf);
+}
+p{font-family:Linear}
